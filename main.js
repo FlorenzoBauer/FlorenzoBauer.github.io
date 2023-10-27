@@ -1,1 +1,1 @@
-//functionality of the site
+//Functionality of the app
