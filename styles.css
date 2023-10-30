@@ -5,6 +5,8 @@
     line-height: 1.5;
 }
 header {
+    display: flex;
+    flex-direction: column;
     padding: 30px;
     text-align: center;
     font-size: 35px;
@@ -14,26 +16,34 @@ header {
     width: 100%;
 }
 body {
-    height: 100vh;
-    background: linear-gradient(to bottom, #000000 0%, #808080 100%);
+    height: 100%;
+    background: linear-gradient(to bottom, #000000 0%, grey 100%);
 }
 
-h1 {
+.title {
     color: white;
     font-size: 40px;
     font-weight: bold;
     text-align: center;
 }
 .comingsoon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: white;
     font-size: 50px;
     font-weight: bold;
     text-align: center;
 }
 
-#rushyyz{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comingsoon{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 }
