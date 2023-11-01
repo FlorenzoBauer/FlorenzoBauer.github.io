@@ -3,6 +3,11 @@
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
 }
+
+body {
+    background: linear-gradient(to bottom, #000000 0%, #1a1a1a 100%);
+}
+
 header {
     color: grey;
     display: flex;
@@ -11,6 +16,7 @@ header {
     text-align: center;
     width: 100%;
     padding-bottom: 30px;
+    padding-top:10px;
 }
 
 ul {
@@ -35,11 +41,6 @@ li .active{
 color: beige;
 }
 
-body {
-    height: 100%;
-    background: linear-gradient(to bottom, #000000 0%, #1a1a1a 100%);
-}
-
 .title {
     margin: 0;
     color: white;
@@ -50,6 +51,7 @@ body {
     font-style: italic;
     font-family: papyrus;
 }
+
 .mini-title{
     text-shadow: white 0 0 20px;
     font-style: italic;
@@ -73,4 +75,19 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.bio{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color:whitesmoke;
+}
+
+.waterinc {
+    color: white;
+    font-size: small;
+    text-align: center;
+    font-weight: 100;
+    font-family:  'Courier New', Courier, monospace;
+
 }
