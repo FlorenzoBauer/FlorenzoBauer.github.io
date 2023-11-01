@@ -6,40 +6,34 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <header>  
-  <h1 class="title" >Rushyyz</h1>
-  <h2 class="mini-title">Live on Twitch</h2>
-  <navbar>
-    <ul>
-      <li><a class="active" href="index.html">Home</a></li>
-      <li><a href="watchLive.html">Watch Live</a></li>
-      <li><a href="merch.html">Merch</a></li>
-      <li><a href="about.html">About</a></li>
-    </ul>
-  </navbar>
-</header>
+    <h1 class="title" >Rushyyz</h1>
+    <h2 class="mini-title">Live on Twitch</h2>
+    <navbar>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="watchLive.html">Watch Live</a></li>
+        <li><a href="merch.html">Merch</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </navbar>
+  </header>
 <body>
-
     <section class="container">
-      
     </script>
-    
     <div id="twitch-embed"></div>
-
     <!-- Load the Twitch embed JavaScript file -->
     <script src="https://embed.twitch.tv/embed/v1.js"></script>
-
     <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
     <script type="text/javascript">
       new Twitch.Embed("twitch-embed", {
         width: 1080,
         height: 480,
-        collection: "NvoTQJkPkhcrkA",
+        channel: 'rushyyz',
         muted: true,
       });
     </script>
 
 <h2 class="comingsoon">Coming soon...</h2>
     </section>
-<script src="main.js"></script>
 </body>
 </html>
