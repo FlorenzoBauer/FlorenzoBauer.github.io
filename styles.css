@@ -4,6 +4,9 @@
     font-size: 16px;
 }
 
+html{
+    min-height: 100vh;
+}
 body {
     background: linear-gradient(to bottom, #000000 0%, #1a1a1a 100%);
 }
@@ -34,11 +37,11 @@ li a{
 }
 
 li a:hover:not(.active){
-    background: whitesmoke;
+    color: beige;
 }
 
 li .active{
-color: beige;
+    color: beige;
 }
 
 .title {
@@ -73,9 +76,10 @@ color: beige;
 .container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    height: 100%;
 }
+
 .bio{
     display: flex;
     flex-direction: column;
